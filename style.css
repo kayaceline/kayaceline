@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+}
+.acceuil {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: purple;
+    display: flex;
+}
+
+.left{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+.right{
+    width: 75%;
+    height: 100%;
+    background-image: url("./img/tanjiro\ 1.png");
+    background-size: cover;
+}
+.img-logo{
+  width: ;  
+  height: ;
+  background-color: ;
+}
+
+
+.title{
+    width: max-content ;
+    height: ;
+    color: ;
+    font-size: 134px;
+    font-family: "Anton SC", sans-serif;
+}
+.img {
+    position: absolute;
+    left: 0;
+}
+.img1 {
+    width: 50%;;
+}
+.experience{
+    width: 100vw;
+    height: 100vh;
+    background-image:url("./img/background\ manga\ 2.png");
+    background-size: 100% 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.text {
+    font-family: "Shojumaru", system-ui;
+}
+.exp-text {
+    font-family: sans-serif;
+    margin-bottom: 30px;
+
+}
+.exp-right {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.about-imge {
+    width: 100%;
+    height: 100%;
+}
+.about-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+    background-image:url(./img/background\ manga\ 2.png);
+    background-size: 100% 100%;
+    
+}
+.about-bloc {
+    width: 100%;
+
+}
+.about-img {
+    width: 20%;
+    height: 100%;
+}
+.exp-text{
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 50%;
+}
+.exp-text1{
+    font-size: 24px;
+    font-family: "Shojumaru", system-ui;
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    text-align: center;
+    background-image:url(./img/background\ manga\ 2.png);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+.img2 {
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+.title-contact {
+    margin-bottom: 75px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 50vw;
+    height: 50vh;
+
+}
+.title-email {
+    font-family: "Shojumaru", system-ui;
+
+}
+.input-email {
+    width: 80%;
+
+}
+.title-message {
+    font-family: "Shojumaru", system-ui;
+}
+.input-message {
+    width: 80%;
+    height: 80%;
+    
+}
+.envoyer{
+    border-radius: 5px;
+    font-family: "Shojumaru", system-ui;
+}
+@media screen and (max-width:767px) {
+    .title {
+        font-size: 50px;
+        margin-top: 300px;
+        margin-left: 10px;
+        color: red;
+    }
+    .title span {
+        color: white;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+    .left {
+        margin-left: 0;
+    }
+    .right {
+        background-size: cover;
+        background-position-x: center;
+    }
+    .img1 {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        z-index: -1;
+    }
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .exp-img {
+        width: 100%;
+        height: 100%;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    .exp-right {
+        color: white;
+        z-index: 2;
+        background-color: #0000003d;
+        width: 100%;
+    }
+    .about-right {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.352);
+    }
+    .img2 {
+        right: -73px;
+        top: 20%;
+        z-index: -1;
+    }
+    .logo-bloc {
+        display: flex;
+    }
+    
+}
